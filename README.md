@@ -2,7 +2,9 @@
   ## Author
  Augustas Jasinskas
   ## Description
- My implementation of Owl Tech’s Advanced Data Representation Utility was developed on C through Clion. It is able to utilize direct mapping functions for fast conversions through the use of bit patterns, as well as functions that showcase sign magnitude, one complement, and two complement signed representations of negative numbers.
+ My implementation of Owl Tech’s Advanced Data Representation Utility was developed on C through Clion. It is able to utilize direct mapping functions for fast conversions through the use of bit patterns, as well as functions that showcase sign magnitude, one complement, and two complement signed representations of negative numbers. there are 6 functions that         directly do this: oct_to_bin, oct_to_hex, hex_to_bin, to_sign_magnitude, to_ones_complement, and to_twos_complement.
+
+ My main.c file then reads, parses, and runs each tests case in the given a2test file. each test has a pass/fail result.
   ## Build Instructions
   gcc-o convert convert.c main.c ./convert
 
