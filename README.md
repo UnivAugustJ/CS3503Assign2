@@ -2,7 +2,7 @@
   ## Author
  Augustas Jasinskas
   ## Description
- My implementation of Owl Tech’s Advanced Data Representation Utility.
+ My implementation of Owl Tech’s Advanced Data Representation Utility was developed on C through Clion. It is able to utilize direct mapping functions for fast conversions through the use of bit patterns, as well as functions that showcase sign magnitude, one complement, and two complement signed representations of negative numbers.
   ## Build Instructions
   gcc-o convert convert.c main.c ./convert
 
