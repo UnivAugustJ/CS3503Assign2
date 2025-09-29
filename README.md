@@ -4,10 +4,8 @@
   ## Description
  My implementation of Owl Tech’s Advanced Data Representation Utility.
   ## Build Instructions
-  
   gcc-o convert convert.c main.c ./convert
 
- 
   ## Test Results
   51/51 Tests Passed.
  
